@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "donegal-c")(type "KiCad")(uri "${KIPRJMOD}/donegal-c.kicad_sym")(options "")(descr ""))
+)
