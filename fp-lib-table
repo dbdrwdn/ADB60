@@ -1,5 +1,4 @@
 (fp_lib_table
-  (lib (name "random")(type "KiCad")(uri "${KIPRJMOD}/libraries/random-keyboard-parts.pretty")(options "")(descr ""))
   (lib (name "MX_Only")(type "KiCad")(uri "${KIPRJMOD}/libraries/MX_Alps_Hybrid/MX_Only.pretty")(options "")(descr ""))
   (lib (name "tartan")(type "KiCad")(uri "${KIPRJMOD}/libraries/tartan.pretty")(options "")(descr ""))
   (lib (name "42keebs")(type "KiCad")(uri "${KIPRJMOD}/42keebs-kicad/footprints")(options "")(descr ""))
