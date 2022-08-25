@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -55,9 +55,33 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|122977251|197539801|e25c85cf-0adb-44f0-a87f-4d32d61868b3|00000000-0000-0000-0000-00005df84a69",
+        "courtyards_overlap|287283751|197539801|133d034b-bf2a-48d3-a063-522620fba91b|00000000-0000-0000-0000-00005df84b53",
+        "courtyards_overlap|311096251|197539801|cbc55ae2-6371-4e8e-a120-3b72f149a49f|00000000-0000-0000-0000-00005df84bef",
+        "courtyards_overlap|320621251|178489801|00000000-0000-0000-0000-00005df84f7d|00000000-0000-0000-0000-00005dffad99",
+        "courtyards_overlap|325383751|159439801|00000000-0000-0000-0000-00005df84a9d|00000000-0000-0000-0000-00005df8511d",
+        "courtyards_overlap|327765001|121339801|00000000-0000-0000-0000-00005df84a4f|00000000-0000-0000-0000-00005df84e2b",
+        "courtyards_overlap|334908751|197539801|329b9026-8e83-4521-9e05-a6bbdfab43fe|00000000-0000-0000-0000-00005df84b39",
+        "courtyards_overlap|337290001|121339801|00000000-0000-0000-0000-00005df84a4f|00000000-0000-0000-0000-00005df84c09",
+        "courtyards_overlap|338583749|163114799|00000000-0000-0000-0000-00005df8511d|00000000-0000-0000-0000-00005df93010",
+        "courtyards_overlap|345727499|149914801|00000000-0000-0000-0000-00005df84b6d|00000000-0000-0000-0000-00005df93010",
+        "courtyards_overlap|75352251|197539801|a384dfd4-ee4c-409d-8b28-d8e72701d92f|00000000-0000-0000-0000-00005df84fff",
+        "courtyards_overlap|77733751|159439801|00000000-0000-0000-0000-00005df84d0d|1afacb2b-6fab-40e2-b4b7-65672ec2c52d",
+        "courtyards_overlap|82496251|178489801|00000000-0000-0000-0000-00005df84ab7|00000000-0000-0000-0000-00005df8509b",
+        "courtyards_overlap|94402501|178489801|00000000-0000-0000-0000-00005df84ab7|00000000-0000-0000-0000-00005df84f2f",
+        "courtyards_overlap|99164751|197539801|9112abb5-be7e-439d-8082-017b959c6252|00000000-0000-0000-0000-00005df84bd5",
+        "hole_near_hole|101954750|201599800|272ff131-8c68-4b22-8208-2246fa8820d8|1e3ee8af-5bc7-4e27-84b8-ac54730c27da",
+        "hole_near_hole|125767250|201599800|a83c09ef-2dd4-4496-8d49-aa609a2a5b21|b8ff764d-92c2-49ec-b9bf-a4aceca9336f",
+        "hole_near_hole|290073750|201599800|3eedaa5b-c6b6-4e48-92b7-201aa60cfc69|f81aeff5-e3cb-4b61-9e86-4ce32ce58845",
+        "hole_near_hole|313886250|201599800|f1a4b78c-7778-4510-86f3-86501b75b08c|35e3b6e0-4ae5-403e-8835-59d187ddd49b",
+        "hole_near_hole|335317500|144449800|83c173fe-c944-46a2-afb3-ecfbc7a7a5d3|79e89fca-f290-4e0f-85a9-7457c73d20f2",
+        "hole_near_hole|337698750|201599800|c29ad157-d8f2-460f-888a-265bf23b42f5|56aacf10-b488-43ab-b3da-00a1f2eb8c2b",
+        "hole_near_hole|78142250|201599800|a415bb20-de14-4a44-ade6-485ef23314c9|25ea2394-9833-44fa-8395-04b360795d68",
+        "hole_near_hole|80523750|163499800|adc00675-885c-4f90-8320-efec14c9fa06|b685623e-95db-46ad-b439-974ccc48e866"
+      ],
       "meta": {
-        "version": 1
+        "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
@@ -69,6 +93,7 @@
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -87,6 +112,7 @@
         "silk_over_copper": "error",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -114,10 +140,7 @@
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
-        "solder_mask_clearance": 0.051,
-        "solder_mask_min_width": 0.25,
-        "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": -0.0
+        "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0,
@@ -382,7 +405,8 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
-          "+5V"
+          "+5V",
+          "VBUS"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -393,7 +417,7 @@
       }
     ],
     "meta": {
-      "version": 1
+      "version": 2
     },
     "net_colors": null
   },
