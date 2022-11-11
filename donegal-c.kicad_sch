@@ -5656,7 +5656,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e1fb9ce)
     (property "Reference" "C1" (id 0) (at 166.751 179.07 90))
-    (property "Value" "4.7uf" (id 1) (at 166.751 175.133 90))
+    (property "Value" "4.7uF" (id 1) (at 166.751 175.133 90))
     (property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" (id 2) (at 163.195 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6500,7 +6500,7 @@
       (reference "#PWR0112") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e1fb9ce"
-      (reference "C1") (unit 1) (value "4.7uf") (footprint "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm")
+      (reference "C1") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm")
     )
     (path "/00000000-0000-0000-0000-00005e1f9c4e"
       (reference "C2") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
