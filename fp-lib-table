@@ -1,5 +1,6 @@
 (fp_lib_table
-  (lib (name "MX_Only")(type "KiCad")(uri "${KIPRJMOD}/libraries/MX_Alps_Hybrid/MX_Only.pretty")(options "")(descr ""))
+  (lib (name "MX_Only")(type "KiCad")(uri "${KIPRJMOD}/libraries/MX_Alps_Hybrid/MX_Only.pretty")(options "")(descr "")(disabled))
   (lib (name "tartan")(type "KiCad")(uri "${KIPRJMOD}/libraries/tartan.pretty")(options "")(descr ""))
   (lib (name "42keebs")(type "KiCad")(uri "${KIPRJMOD}/42keebs-kicad/footprints")(options "")(descr ""))
+  (lib (name "Alps_Only")(type "KiCad")(uri "${KIPRJMOD}/libraries/Alps_Only.pretty")(options "")(descr ""))
 )
