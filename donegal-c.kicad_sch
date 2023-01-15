@@ -5677,8 +5677,8 @@
     (in_bom yes) (on_board yes)
     (uuid 62926ecc-974f-49b7-a25d-42eee5b73239)
     (property "Reference" "SW76" (id 0) (at 70.485 170.434 0))
-    (property "Value" "SW_SPST" (id 1) (at 70.485 168.1226 0))
-    (property "Footprint" "Alps_Only:ALPS-2U" (id 2) (at 70.485 164.465 0)
+    (property "Value" "" (id 1) (at 70.485 168.1226 0))
+    (property "Footprint" "" (id 2) (at 70.485 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 70.485 164.465 0)
@@ -6499,7 +6499,7 @@
       (reference "SW69") (unit 1) (value "BOOT") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/62926ecc-974f-49b7-a25d-42eee5b73239"
-      (reference "SW76") (unit 1) (value "SW_SPST") (footprint "Alps_Only:ALPS-2U")
+      (reference "SW76") (unit 1) (value "SW_SPST") (footprint "Alps_Only:ALPS-2.25U")
     )
     (path "/a69f5ac2-ec68-4655-8087-bfc4281d5652"
       (reference "SW80") (unit 1) (value "SW_SPST") (footprint "Alps_Only:ALPS-1U")
